@@ -2,7 +2,7 @@ function [basic_eb_struct] = basic_eb(settings_file_name,data_file_name)
 
 basic_eb_struct.program_path = mfilename("fullpath");
 basic_eb_struct.program_path = fileparts(basic_eb_struct.program_path);
-
+ 
 if nargin == 0 
 settings_file_name = fullfile('settings','default_project');
 end
